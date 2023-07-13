@@ -23,13 +23,13 @@ export function Grid() {
       <button onClick={handleAdd} className={"btn btn-success"}>+</button>
       <div className={"d-grid gap-3 p-4"}>
         {items.map(x => <div key={x} className={"row justify-content-md-left"}>
-          <div className={""}>
+          <div className={"col-md-auto"}>
             <button onClick={() => handleRemove(x)} className={"btn btn-danger"}>-</button>
           </div>
           <div className={"h-100 p-2 col-md-2"}>
             <Cell id={x}/>
           </div>
-          <div className={"col"}>
+          <div className={"col-md-auto"}>
             <Button >Bootstrap button</Button>
           </div>
         </div>)}
