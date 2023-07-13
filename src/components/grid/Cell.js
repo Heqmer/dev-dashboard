@@ -1,6 +1,6 @@
 import {useState} from "react";
 import './Grid.css'
-import {Button, Container} from "react-bootstrap";
+import {Container} from "react-bootstrap";
 
 export function Cell({id}) {
   const [selected, setSelected] = useState(false)
@@ -14,7 +14,6 @@ export function Cell({id}) {
   return (
     <Container className={selected ? "cell selectedCell" : "cell unselectedCell"}
                onMouseEnter={handleClick} title={id}> Entered #{count} times
-      <Button size={"sm"}>Bootstrap button</Button>
     </Container>
   )
 }
