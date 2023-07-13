@@ -25,6 +25,29 @@
 /*    !*background-color: #40634b;*!*/
 /*}*/
 
+#root {
+    min-height: 100vh;
+    height: -webkit-fill-available;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
 html {
-    display: block;
+    height: -webkit-fill-available;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
