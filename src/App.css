@@ -1,26 +1,30 @@
-.Sidebar {
-    /*border-radius: 30px;*/
-    /*margin: 10px;*/
-    /*min-height: 100%;*/
+/*.Sidebar {*/
+/*    !*border-radius: 30px;*!*/
+/*    !*margin: 10px;*!*/
+/*    !*min-height: 100%;*!*/
 
-    background-color: #3b3b3b;
-}
+/*    background-color: #3b3b3b;*/
+/*}*/
 
-.FullHeightRow {
-    min-height: 98vh;
-}
+/*.FullHeightRow {*/
+/*    min-height: 98vh;*/
+/*}*/
 
-.MainPanel {
-    /*border-radius: 30px;*/
-    /*margin: 10px;*/
-    /*padding: 30px;*/
-    background-color: #252525;
-}
+/*.MainPanel {*/
+/*    !*border-radius: 30px;*!*/
+/*    !*margin: 10px;*!*/
+/*    !*padding: 30px;*!*/
+/*    background-color: #252525;*/
+/*}*/
 
-.Red {
-    /*background-color: brown;*/
-}
+/*.Red {*/
+/*    !*background-color: brown;*!*/
+/*}*/
 
-.Green {
-    /*background-color: #40634b;*/
+/*.Green {*/
+/*    !*background-color: #40634b;*!*/
+/*}*/
+
+html {
+    display: block;
 }

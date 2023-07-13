@@ -1,14 +1,14 @@
-.selectedCell {
-    color: #40634b;
-    outline: 1px solid #ffffff;
-}
+/*.selectedCell {*/
+/*    color: #40634b;*/
+/*    outline: 1px solid #ffffff;*/
+/*}*/
 
-.unselectedCell {
-    color: #ffffff;
-}
+/*.unselectedCell {*/
+/*    color: #ffffff;*/
+/*}*/
 
-.cell {
-    margin: 10px;
-    padding: 10px;
-    user-select: none;
-}
+/*.cell {*/
+/*    margin: 10px;*/
+/*    padding: 10px;*/
+/*    user-select: none;*/
+/*}*/
